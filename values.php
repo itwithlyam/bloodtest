@@ -1,11 +1,11 @@
 <?php
   function hbm($hb) {
     if ($hb >= 140 && $hb <= 150) {
-      echo "\r\nHaemoglobin is in normal range\n\r";
+      echo "\r\nHaemoglobin is optimal\n\r";
     } elseif ($hb > 150) {
-      echo "\n\rHaemoglobin is higher than usual\n\r";
+      echo "\n\rHaemoglobin is higher than optimal\n\r";
     } else {
-      echo "\n\rHaemoglobin is lower than usual\n\r";
+      echo "\n\rHaemoglobin is lower than optimal\n\r";
     }
   }
 
